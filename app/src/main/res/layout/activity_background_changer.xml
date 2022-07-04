@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BackgroundChanger"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <RadioButton
+            android:id="@+id/greenradio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:textSize="24sp"
+            android:background="@color/green"
+            />
+        <RadioButton
+            android:id="@+id/cyanradio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cyan"
+            android:textSize="24sp"
+            android:background="@color/cyan"
+            />
+        <RadioButton
+            android:id="@+id/whiteradio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White"
+            android:textSize="24sp"
+            android:background="@color/white"
+            />
+        <RadioButton
+            android:id="@+id/yellowradio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yellow"
+            android:textSize="24sp"
+            android:background="@color/yellow"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Confirm"
+        />
+
+</LinearLayout>

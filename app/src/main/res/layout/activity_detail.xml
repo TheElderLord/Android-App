@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/charImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:circularflow_defaultRadius="50dp"
+        app:layout_constraintCircleRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/charName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="36dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/charImage"
+        app:layout_constraintStart_toStartOf="@+id/charImage"
+        app:layout_constraintTop_toBottomOf="@+id/charImage" />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/charBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/charName"
+        app:layout_constraintStart_toStartOf="@+id/charName"
+        app:layout_constraintTop_toBottomOf="@+id/charName" />
+
+    <TextView
+        android:id="@+id/charstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+
+        android:textAlignment="center"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/charOccupation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/charBirthday" />
+
+    <ListView
+        android:id="@+id/charOccupation"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="150dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/charstatus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

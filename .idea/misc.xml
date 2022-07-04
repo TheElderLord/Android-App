@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/drawable/item_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/drawable/rounded_corner.xml" value="0.1" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_background_changer.xml" value="0.264" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_detail.xml" value="0.13125" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_login.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_register.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_splash.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/layout/character_list.xml" value="0.264" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/layout/character_record_item.xml" value="0.2" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/layout/fragment_characters.xml" value="0.1" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/layout/fragment_profile.xml" value="0.176" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/layout/fragment_settings.xml" value="0.1" />
+        <entry key="..\:/Users/Arsen/AndroidStudioProjects/FinalProject/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
